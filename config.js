@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: '',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,9 +26,9 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherKey: '7cd64afacda18cff557cf6c7e44dfe6b', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
@@ -36,10 +36,10 @@ const CONFIG = {
 	defaultLongitude: '-122.419',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'github',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://gmail.google.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'todoist',
 			icon: 'trello',
 			link: 'https://todoist.com',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
+			name: 'calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: 'dev hints',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://learnxinyminutes.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
