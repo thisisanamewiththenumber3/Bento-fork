@@ -80,7 +80,7 @@ body {
   background-image: var(--imgcol), var(--imgbg);
   background-size: cover;
 }
-
+/*
 #themeButton {
   position: absolute;
   margin: 2em 2em 0 0;
@@ -91,7 +91,7 @@ body {
   cursor: pointer;
   background-color: #00000000;
 }
-
+*/
 #themeIcon {
   width: 25px;
   height: 25px;
